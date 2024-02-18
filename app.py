@@ -7,7 +7,7 @@ from data import finance_prospects_dict
 from business import business_page  # Import the business_page function
 
 # Load the trained model for the career prediction
-loaded_model = pickle.load(open("careerlast.pkl", "rb"))
+loaded_model = pickle.load(open("technical.pkl", "rb"))
 
 # Load the trained model for the finance page
 loaded_model_finance = pickle.load(open("finance.pkl", "rb"))
@@ -229,6 +229,6 @@ st.markdown("<div style='margin-bottom: 200px;'></div>", unsafe_allow_html=True)
 
 st.markdown(
     "<p style='text-align: center; font-size: 125%; color: #777;'>"
-    "<i>Made by the <span><strong>Alt+F4</strong></span>ALT+F4 🫅🫅🫅🫅</i></p>",
+    "<i>Made by the <span><strong>Alt+F4 Team 🫅🫅🫅🫅</strong></span></i></p>",
     unsafe_allow_html=True,
 )
